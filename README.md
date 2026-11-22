@@ -98,7 +98,7 @@ The LSTM outperforms the Random Forest baseline in overall accuracy, weighted F1
 
 ## 5. Streamlit Web Application
 
-The interactive app (`app.py`) loads the saved `preprocessor.pkl`, `label_encoder.pkl`, and `lstm_model.keras` to classify uploaded traffic CSVs in real time.
+The interactive app (`app.py`) loads the saved `preprocessor.pkl`, `label_encoder.pkl`, and `lstm_model.keras` to classify uploaded traffic CSVs in batch.
 
 ### Features
 * Drag-and-drop CSV upload with automatic validation of the 41 required features
